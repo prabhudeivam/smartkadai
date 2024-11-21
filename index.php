@@ -1,101 +1,12 @@
 <?php include_once __DIR__ . "/includes/header.php";
 include_once __DIR__ . "/home/slider.php";
+include_once __DIR__ . "/home/best-seller.php";
+?>  
 
-?>
-  
 
-  <section class="py-12 bg-center">
-    <div class="container mx-auto text-center">
-      <!-- <a class="text-5xl font-bold items-center" href="#"> Best Sellers</a> -->
-      <h3 class="text-4xl font-bold items-center mb-10">Best Sellers</h3>
-      
-      <!-- Tabs Navigation -->
-      <div class="flex bestseller tab justify-content-center">
-        <button class="tab-button"
-                data-tab="tab1">Moisturizers</button>
-        <button class="tab-button"
-                data-tab="tab2">Sunscreens</button>
-        <button class="tab-button"
-                data-tab="tab3">Serums</button>
-        <button class="tab-button"
-                data-tab="tab4">Facewash</button>
-      </div>
-      
-      <!-- Tabs Content -->
-      <div class="p-4">
-        <div id="tab1" class="tab-content">
-          <div class="w-full max-w-xs bg-white shadow-md rounded-2xl overflow-hidden m-4 flex flex-col">
-            <a href="/products/vitamin-c-e-super-bright-moisturizer" class="flex flex-col">
-              <div class="relative">
-                <img
-                  src="//www.dotandkey.com/cdn/shop/files/1c-Vit-C-Moisturizer.jpg"
-                  alt="Vitamin C + E Moisturizer for Glowing Skin"
-                  class="w-full h-48 object-cover"
-                />
-                <div class="absolute top-2 left-2 px-2 py-1 text-orange-500 border border-orange-500 rounded-sm bg-white text-xs">
-                  BESTSELLER
-                </div>
-              </div>
-              <h3 class="mt-2 py-3 text-xl font-bold text-gray-800 px-5 text-left">Vitamin C + E Moisturizer for Glowing Skin</h3>
-            </a>
 
-            <div class="flex items-center mt-2 gap-1 px-4 py-3">
-              <span class="text-white rounded-lg text-sm px-3 py-1 bg-green"><ion-icon name="star"></ion-icon> 4.8</span>
-              <span class="text-gray-500 text-sm font-semibold">(812)</span>
-            </div>
-          
-            <!-- Weight Options -->
-            <div class="flex mt-3 space-x-2 px-5">
-              <button class="weight-option-button text-sm px-3 py-1 rounded border border-primary bg-primary text-white rounded-lg" data-weight="30g" data-price="₹200">30g</button>
-              <button class="weight-option-button text-sm px-3 py-1 rounded border border-primary bg-primary text-white rounded-lg" data-weight="60g" data-price="₹396">60g</button>
-              <button class="weight-option-button text-sm px-3 py-1 rounded border border-primary bg-primary text-white rounded-lg" data-weight="100g" data-price="₹650">100g</button>
-            </div>
-          
-            <!-- Pricing Section -->
-            <div class="flex items-center mt-2 gap-2 px-5">
-              <span class="text-2xl font-semibold text-gray-700" id="selected-price">₹396</span>
-              <span class="text-md font-semibold text-gray-500 line-through">₹495</span>
-              <span class="text-md text-primary">(20% OFF)</span>
-            </div>
-          
-            <button class="flex gap-x-2 items-center justify-center w-full mt-4 py-4 bg-secondary text-white rounded hover:bg-primary transition-colors uppercase">
-              <ion-icon name="cart-outline" size="large"></ion-icon> Add to Cart
-            </button>
-          </div>
-        </div>
-        <div id="tab2" class="tab-content hidden">
-          <h2 class="text-lg font-semibold mb-2">
-             
-            <div class="relative">
-              <div id="carrusel" class="flex flex-row overflow-x-auto mx-6">
-                <!-- Add your carousel items here -->
-              </div>
 
-              <!-- Left arrow (draggable) -->
-              <div id="carrousel-left" class="arrow bg-blue-700 text-white p-3 shadow cursor-pointer hover:bg-blue-600">
-                <span class="lnr lnr-chevron-left"></span>
-              </div>
-
-              <!-- Right arrow (draggable) -->
-              <div id="carrousel-right" class="arrow right-0 bg-blue-700 text-white p-3 shadow cursor-pointer hover:bg-blue-600">
-                <span class="lnr lnr-chevron-right"></span>
-              </div>
-            </div>
-
-        </div>
-        <div id="tab3" class="tab-content hidden">
-          <h2 class="text-lg font-semibold mb-2">Tab 3 Content</h2>
-          <p class="text-gray-600">This is the content for Tab 3.</p>
-        </div>
-        <div id="tab4" class="tab-content hidden">
-          <h2 class="text-lg font-semibold mb-2">Tab 4 Content</h2>
-          <p class="text-gray-600">This is the content for Tab 4.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section>
+<section>
     <div class="swiper swiper2 w-full h-full">
       <div class="swiper-wrapper">
         <div class="swiper-slide flex items-center justify-center text-xl bg-white py-10"><img src="images/offers.jpg" alt="offers1"></div>
@@ -107,7 +18,7 @@ include_once __DIR__ . "/home/slider.php";
     </div>
   </section>
 
-   <section class="py-12 bg-white">
+<section class="py-12 bg-white">
     <div class="container mx-auto px-4 text-center">
       <h2 class="text-3xl font-bold mb-8 text-gray-700">New Arrivals</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
@@ -270,7 +181,8 @@ include_once __DIR__ . "/home/slider.php";
     </div>
   </section>
 
-  <section class="py-5">
+
+<section class="py-5">
     <div class="max-w-md mx-auto px-4 text-center">
       <h2 class="text-3xl font-bold mb-1 text-gray-700">Clean Beauty</h2>
       <p class="text-sm text-center mb-8 text-gray-700" >with uncompromised efficacy</p>
@@ -289,25 +201,7 @@ include_once __DIR__ . "/home/slider.php";
     </div>
   </section>
 
- 
-  <!-- <section class="py-12 bg-pink-100">
-    <div class="container mx-auto px-4 text-center">
-      <h2 class="text-3xl font-bold mb-8 text-gray-700">Why Choose Us?</h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        
-    
-        <div class="bg-white p-6 rounded-lg shadow-md">
-          <img src="https://via.placeholder.com/64" alt="Benefit Icon" class="mx-auto mb-4">
-          <h3 class="text-lg font-semibold text-gray-800">Natural Ingredients</h3>
-          <p class="text-gray-600 mt-2">Our products are made with all-natural, organic ingredients to nourish your skin.</p>
-        </div>
-
-        
-      </div>
-    </div>
-  </section> -->
-
-  <section class="py-12 bg-pink-100">
+<section class="py-12 bg-pink-100">
     <div class="container mx-auto px-4 text-center">
       <h2 class="text-3xl font-bold mb-8 text-gray-700">Featured In</h2>
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8 items-center" style="justify-items:center">
@@ -321,8 +215,9 @@ include_once __DIR__ . "/home/slider.php";
     </div>
   </section>
 
- 
-  <section class="py-12 bg-white">
+
+<!-- Customer review -->
+<section class="py-12 bg-white">
     <div class="container mx-auto px-4 text-center">
       <h2 class="text-3xl font-bold mb-8 text-gray-700">Customer Love</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -533,67 +428,22 @@ include_once __DIR__ . "/home/slider.php";
   </section>
 
 
-  <section class="py-12 bg-gray-50">
-    <div class="container mx-auto px-4 text-center">
-      <h2 class="text-3xl font-bold mb-8 text-gray-700">Follow Us on Instagram</h2>
-      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
-        <div class="relative overflow-hidden rounded-lg">
-          <img src="https://via.placeholder.com/300" alt="Instagram Post" class="w-full h-40 object-cover">
-        </div>
-        
-      </div>
-    </div>
-  </section>
-
   
-  <section class="bg-pink-100 py-12">
-    <div class="container mx-auto px-4 text-center">
-      <h2 class="text-3xl font-bold text-gray-700 mb-4">Subscribe to Our Newsletter</h2>
-      <p class="text-gray-600 mb-6">Get the latest updates on new products and upcoming sales</p>
-      <form class="flex justify-center">
-        <input type="email" placeholder="Enter your email" class="px-4 py-2 border rounded-l-lg focus:outline-none">
-        <button type="submit" class="bg-pink-500 text-white px-4 py-2 rounded-r-lg hover:bg-pink-600">Subscribe</button>
-      </form>
-    </div>
-  </section>
-
-  
-   <section class="py-12 bg-white">
-    <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold mb-8 text-gray-700 text-center">Frequently Asked Questions</h2>
-      
-     
-      <div class="bg-gray-100 p-4 rounded-lg mb-4">
-        <button class="faq-toggle w-full text-left text-gray-800 font-semibold">What is the return policy?</button>
-        <div class="faq-content mt-2 text-gray-600 hidden">
-          <p>You can return any product within 30 days of purchase if it is unused and in its original packaging.</p>
-        </div>
-      </div>
-
-      
-    </div>
-  </section>
-
   <?php include_once __DIR__ . '/includes/footer.php'; ?>
-
-
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-  <script>
-     
-    $(document).ready(function() {
-      
+  <script>     
+    $(document).ready(function() {      
       // best seller tabs - start
       // Set the first tab as active by default
-      $(".tab-button").first().addClass("tab-active");
+      $(".tab-button").first().addClass("bg-blue-500 text-white");
       $(".tab-content").first().removeClass("hidden");
 
       $(".tab-button").click(function () {
         var tabId = $(this).data("tab");
 
         // Toggle active state for tabs
-        $(".tab-button").removeClass("tab-active");
-        $(this).addClass("tab-active");
+        $(".tab-button").removeClass("bg-blue-500 text-white text-gray-500");
+        $(this).addClass("bg-blue-500 text-white");
 
         // Show the corresponding content and hide others
         $(".tab-content").addClass("hidden");
@@ -647,9 +497,9 @@ include_once __DIR__ . "/home/slider.php";
     $(`#product-${productId} .money-print`).html(`₹${variantPrice}`);
     $(`#product-${productId} .product-variant-id`).val(variantId);
   });
-  $('.weight-option-button').on('click', function () {
+  $('.bs-weight-option-button').on('click', function () {
     // Remove active state from other buttons and add to clicked button
-    $('.weight-option-button').removeClass('bg-blue-500 text-white').addClass('border-gray-300 text-gray-700');
+    $('.bs-weight-option-button').removeClass('bg-blue-500 text-white').addClass('border-gray-300 text-gray-700');
     $(this).addClass('bg-blue-500 text-white').removeClass('border-gray-300 text-gray-700');
 
     // Update price

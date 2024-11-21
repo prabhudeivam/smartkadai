@@ -24,8 +24,7 @@
                         yellow: '#ffe600',
                     },
                     backgroundColor: {
-                        footer: '#f2f2f2',
-                        green: '#82b51b'
+                        footer: '#f2f2f2'
                     },
                     fontFamily: {
                         'sans': ['Roboto', 'sans-serif'],
@@ -67,7 +66,7 @@
             </button>
             <!-- ./ Menu Trigger -->
       
-            <a href="#" class="font-bold text-primary text-2xl ">SmartKadai</a>
+            <a href="index.php" class="font-bold text-primary text-2xl ">SmartKadai</a>
 
       
             <div class="flex items-center space-x-4">
@@ -78,14 +77,14 @@
                 </svg>
               </div>
       
-              <a href="#" class="flex h-10 items-center px-2 rounded-lg border border-gray-200 hover:border-gray-300 focus:outline-none hover:shadow-inner">
+              <a href="cart.php" class="flex h-10 items-center px-2 rounded-lg border border-gray-200 hover:border-gray-300 focus:outline-none hover:shadow-inner">
                 <ion-icon name="cart-outline" size="small"></ion-icon>
                 <span class="pl-1 text-gray-500 text-md">0</span>
               </a>
       
-              <button type="button" class="hidden md:block w-10 h-10 rounded-lg bg-gray-100 border border-gray-200 flex justify-center items-center">
+              <a href="login.php" class="flex h-10 items-center px-2 rounded-lg border border-gray-200 hover:border-gray-300 focus:outline-none hover:shadow-inner">
                 <ion-icon name="person-outline" size="small"></ion-icon>
-              </button>
+               </a>
             </div>
           </div>
       
@@ -103,6 +102,7 @@
       </div>
     </div>
   </header>
+  
   <!-- Menu Starts -->
     <div class="hidden md:flex space-x-3 flex-1 lg:ml-8 pt-2 pb-4">
       <div class="mt-5 flex justify-center mx-auto">
@@ -119,10 +119,9 @@
               <div class="dropdown-menu hidden absolute z-10 left-0 transform mt-3 px-2 w-screen max-w-md sm:px-0">
                  <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                     <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                       <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                       <a href="shop-all.php" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                           <div>
-                             <p class="text-base font-medium text-gray-900">Submenu 1.1</p>
-                             <p class="mt-1 text-sm text-gray-500">Description for submenu 1.1</p>
+                             <p class="text-base font-medium text-gray-900">All Products</p>
                           </div>
                        </a>
                     </div>
@@ -242,4 +241,7 @@
         </nav>
      </div>
     </div>
-    <!-- Menu Starts -->
+    <!-- Menu end -->
+    <div class="bg-primary text-white text-5xl md:text-center p-4 font-bold">
+      Buy 3 @ 999 | <span class="text-yellow">+ Free Full Size Cleanser Ends in</span>
+    </div>

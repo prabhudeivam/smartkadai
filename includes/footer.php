@@ -9,18 +9,17 @@
           <h3 class="text-2xl mb-4">Know Us Better</h3>
           <ul>
             <li><a href="#" class="text-black hover:text-gray-400 transition">Affiliate Program</a></li>
-            <li><a href="#" class="text-black hover:text-gray-400 transition">FAQ</a></li>
-            <li><a href="#" class="text-black hover:text-gray-400 transition">Blogs</a></li>
+            <li><a href="blogs.php" class="text-black hover:text-gray-400 transition">Blogs</a></li>
           </ul>
         </div>
 
         <div>
           <h3 class="text-2xl mb-4">Company</h3>
           <ul>
-            <li><a href="#" class="text-black hover:text-gray-400 transition">About Us</a></li>
+            <li><a href="about.php" class="text-black hover:text-gray-400 transition">About Us</a></li>
             <li><a href="#" class="text-black hover:text-gray-400 transition">Careers</a></li>
             <li><a href="#" class="text-black hover:text-gray-400 transition">Press</a></li>
-            <li><a href="#" class="text-black hover:text-gray-400 transition">Contact Us</a></li>
+            <li><a href="contact-us.php" class="text-black hover:text-gray-400 transition">Contact Us</a></li>
           </ul>
         </div>
   
@@ -63,10 +62,7 @@
                   <!-- Add other social icons as needed -->
                 </div>
           
-                <!-- Legal Info -->
-                <div>
-                  <p class="text-sm">&copy; 2024 Dot & Key. All rights reserved.</p>
-                </div>
+                
               </div>
             </div>
         </div>
@@ -93,6 +89,7 @@
          $(this).next('.dropdown-menu').toggleClass('hidden');
          $(this).find('.dropdown-icon').toggleClass('text-gray-600 text-gray-400');
       });
+      
 
       // Close dropdown when clicking outside
       $(document).on('click', function() {
@@ -116,5 +113,3 @@
    </body>
 
 </html>
-
-<!-- https://codepen.io/cleibert/pen/WNbppqX -->
