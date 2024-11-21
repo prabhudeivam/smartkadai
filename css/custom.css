@@ -1,0 +1,47 @@
+.bg-footer ul li {
+	padding: 5px 0;
+}
+
+.swiper-pagination-bullet {
+    width: 16px !important;
+    height: 16px !important;
+    background: #fff !important;
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+	background: #000 !important;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    border: 1px solid #000 !important;
+}
+
+.swiper-button-next, .swiper-button-prev {
+	color: #ff40b1 !important;
+}
+
+.tab button {
+	padding: 10px 20px;
+	border-radius: 10px;
+	border: 1px solid #000;
+	margin: 0 10px;
+}
+
+.tab button.tab-active {
+	background: #ff40b1;
+	color: #fff;
+	border-color: #ff40b1;
+}
+
+.main-slider {
+	margin-bottom: 3%;
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+
+a h3 {
+	min-height: 80px;
+}
